@@ -1,0 +1,4 @@
+﻿  main.c
+d:\c\runoob\存储类\main.c(11): warning C4013: “system”未定义；假设外部返回 int
+  存储类.vcxproj -> D:\C\RUNOOB\Debug\存储类.exe
+  存储类.vcxproj -> D:\C\RUNOOB\Debug\存储类.pdb (Partial PDB)

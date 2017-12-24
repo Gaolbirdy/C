@@ -1,0 +1,5 @@
+﻿  变量,.c
+d:\c\runoob\变量\变量,.c(41): warning C4305: “=”: 从“double”到“float”截断
+d:\c\runoob\变量\变量,.c(44): warning C4013: “system”未定义；假设外部返回 int
+  变量.vcxproj -> D:\C\RUNOOB\Debug\变量.exe
+  变量.vcxproj -> D:\C\RUNOOB\Debug\变量.pdb (Partial PDB)

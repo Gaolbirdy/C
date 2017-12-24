@@ -1,0 +1,4 @@
+﻿  数据类型.c
+d:\c\runoob\数据类型\数据类型.c(20): warning C4013: “system”未定义；假设外部返回 int
+  数据类型.vcxproj -> D:\C\RUNOOB\Debug\数据类型.exe
+  数据类型.vcxproj -> D:\C\RUNOOB\Debug\数据类型.pdb (Partial PDB)

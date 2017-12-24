@@ -1,0 +1,4 @@
+﻿  常量.c
+d:\c\runoob\常量\常量.c(62): warning C4013: “system”未定义；假设外部返回 int
+  常量.vcxproj -> D:\C\RUNOOB\Debug\常量.exe
+  常量.vcxproj -> D:\C\RUNOOB\Debug\常量.pdb (Partial PDB)
