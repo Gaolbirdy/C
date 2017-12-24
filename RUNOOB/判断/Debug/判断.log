@@ -1,0 +1,4 @@
+﻿  判断.c
+d:\c\runoob\判断\判断.c(134): warning C4013: “system”未定义；假设外部返回 int
+  判断.vcxproj -> D:\C\RUNOOB\Debug\判断.exe
+  判断.vcxproj -> D:\C\RUNOOB\Debug\判断.pdb (Partial PDB)
