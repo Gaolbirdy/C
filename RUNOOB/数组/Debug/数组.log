@@ -1,0 +1,6 @@
+﻿  数组.c
+d:\c\runoob\数组\数组.c(116): warning C4047: “=”:“double *”与“double (*)[5]”的间接级别不同
+d:\c\runoob\数组\数组.c(130): warning C4477: “printf”: 格式字符串“%0x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“double *”
+d:\c\runoob\数组\数组.c(131): warning C4477: “printf”: 格式字符串“%0x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“double (*)[5]”
+  数组.vcxproj -> D:\C\RUNOOB\Debug\数组.exe
+  数组.vcxproj -> D:\C\RUNOOB\Debug\数组.pdb (Partial PDB)

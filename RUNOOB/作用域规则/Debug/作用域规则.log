@@ -1,0 +1,4 @@
+﻿  作用域规则.c
+d:\c\runoob\作用域规则\作用域规则.c(57): warning C4013: “system”未定义；假设外部返回 int
+  作用域规则.vcxproj -> D:\C\RUNOOB\Debug\作用域规则.exe
+  作用域规则.vcxproj -> D:\C\RUNOOB\Debug\作用域规则.pdb (Partial PDB)

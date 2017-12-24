@@ -1,0 +1,4 @@
+﻿  函数.c
+d:\c\runoob\函数\函数.c(75): warning C4013: “system”未定义；假设外部返回 int
+  函数.vcxproj -> D:\C\RUNOOB\Debug\函数.exe
+  函数.vcxproj -> D:\C\RUNOOB\Debug\函数.pdb (Partial PDB)
