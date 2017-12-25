@@ -7,11 +7,11 @@ struct Books
 	char author[50];
 	char subject[100];
 	int book_id;
-};
+} testBook;
 
 void printBook(struct Books book);
 
-void inputBook(struct Books book, char *title, char autor[], char subject[], int book_id);
+struct Books inputBook(struct Books book, char title[], char autor[], char subject[], int book_id);
 
 void main()
 {
@@ -47,15 +47,15 @@ void main()
 	//printf("book 2 book_id: %d\n", book2.book_id);
 	
 	// testBook
-	struct Books testBook;
-	strcpy_s(testBook.title, 50, "Test title");
-	strcpy_s(testBook.author, 50, "Test author");
-	strcpy_s(testBook.subject, 50, "Test subject");
-	testBook.book_id = 101010;
-	printBook(testBook);
+	//struct Books testBook;
+	///*strcpy_s(testBook.title, 50, "Test title");
+	//strcpy_s(testBook.author, 50, "Test author");
+	//strcpy_s(testBook.subject, 50, "Test subject");
+	//testBook.book_id = 101010;
+	//printBook(testBook);*/
 	
-	/*inputBook(testBook, "C Programming", "Nuha Ali", "C Programming Tutorial", 6495407);
-	printBook(testBook);*/
+	testBook = inputBook(testBook, "c programming", "nuha ali", "c programming tutorial", 6495407);
+	printBook(testBook);
 
 	system("pause");
 }
@@ -69,13 +69,17 @@ void printBook(struct Books book)
 	printf("\n");
 }
 
-void inputBook(struct Books book, char *title, char autor[], char subject[], int book_id)
+struct Books inputBook(struct Books book, char title[], char autor[], char subject[], int book_id)
 {
-	
-	printf("%s\n", title[0]);
-
 	strcpy_s(book.title, 50, title);
 	strcpy_s(book.author, 50, autor);
 	strcpy_s(book.subject, 50, autor);
 	book.book_id = book_id;
+
+	//printf("%s\n", title);
+	//printf("%s\n", autor);
+	//printf("%s\n", subject);
+	//printf("%d\n", book_id);
+
+	return book;
 }
