@@ -1,4 +1,5 @@
 ﻿  位域.c
 d:\c\runoob\位域\位域.c(59): warning C4013: “system”未定义；假设外部返回 int
+  LINK : 没有找到 D:\C\RUNOOB\Debug\位域.exe 或上一个增量链接没有生成它；正在执行完全链接
   位域.vcxproj -> D:\C\RUNOOB\Debug\位域.exe
   位域.vcxproj -> D:\C\RUNOOB\Debug\位域.pdb (Partial PDB)
