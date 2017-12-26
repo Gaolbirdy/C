@@ -1,0 +1,4 @@
+﻿  共用体.c
+d:\c\runoob\共用体\共用体.c(33): warning C4013: “system”未定义；假设外部返回 int
+  共用体.vcxproj -> D:\C\RUNOOB\Debug\共用体.exe
+  共用体.vcxproj -> D:\C\RUNOOB\Debug\共用体.pdb (Partial PDB)

@@ -1,0 +1,4 @@
+﻿  typedef.c
+d:\c\runoob\typedef\typedef.c(7): warning C4013: “system”未定义；假设外部返回 int
+  typedef.vcxproj -> D:\C\RUNOOB\Debug\typedef.exe
+  typedef.vcxproj -> D:\C\RUNOOB\Debug\typedef.pdb (Partial PDB)
