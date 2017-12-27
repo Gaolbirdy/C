@@ -33,15 +33,29 @@
 //}
 
 
+//void main()
+//{
+//	char str[100];
+//
+//	printf("Enter a value: ");
+//	gets(str);
+//
+//	printf("\You entered: ");
+//	puts(str);
+//
+//	system("pause");
+//}
+
 void main()
 {
-	char str[100];
+	char str[20];
+	int i;
 
-	printf("Enter a value: ");
-	gets(str);
+	printf("Enter a value:");
+	scanf_s("%s %d", str, 20, &i);
 
-	printf("\You entered: ");
-	puts(str);
+	printf("\nYou entered: %s %d", str, i);
+	printf("\n");
 
 	system("pause");
 }
