@@ -21,9 +21,13 @@
 #define MESSAGE "You wish 1!"
 #endif // ! MESSAGE
 
-#if defined(MESSAGE)
+#if !defined(MESSAGE)
 	#define MESSAGE "You wish 2!"
 #endif
+
+#define square(x) (x * x)
+
+#define MAX(x, y) (x > y ? x : y)
 
 void main()
 {
@@ -40,5 +44,14 @@ void main()
 
 	printf("Here is the message: %s\n", MESSAGE);
 
+	int max = MAX(10, 20);
+	printf("Max between 10 and 20 is %d\n", MAX(10, 20));
+	printf("Max between 20 and 10 is %d\n", max);
+
 	system("pause");
 }
+
+//int square(int x)
+//{
+//	return x * x;
+//}

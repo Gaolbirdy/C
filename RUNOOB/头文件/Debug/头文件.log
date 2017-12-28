@@ -1,0 +1,4 @@
+﻿  头文件.c
+d:\c\runoob\头文件\头文件.c(31): warning C4013: “system”未定义；假设外部返回 int
+  头文件.vcxproj -> D:\C\RUNOOB\Debug\头文件.exe
+  头文件.vcxproj -> D:\C\RUNOOB\Debug\头文件.pdb (Partial PDB)

@@ -1,0 +1,4 @@
+﻿  强制类型转换.c
+d:\c\runoob\强制类型转换\强制类型转换.c(7): warning C4013: “system”未定义；假设外部返回 int
+  强制类型转换.vcxproj -> D:\C\RUNOOB\Debug\强制类型转换.exe
+  强制类型转换.vcxproj -> D:\C\RUNOOB\Debug\强制类型转换.pdb (Partial PDB)

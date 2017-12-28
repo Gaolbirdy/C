@@ -1,6 +1,4 @@
 ﻿  预处理器.c
-d:\c\runoob\预处理器\预处理器.c(25): warning C4005: “MESSAGE”: 宏重定义
-  d:\c\runoob\预处理器\预处理器.c(21): note: 参见“MESSAGE”的前一个定义
-d:\c\runoob\预处理器\预处理器.c(43): warning C4013: “system”未定义；假设外部返回 int
+d:\c\runoob\预处理器\预处理器.c(51): warning C4013: “system”未定义；假设外部返回 int
   预处理器.vcxproj -> D:\C\RUNOOB\Debug\预处理器.exe
   预处理器.vcxproj -> D:\C\RUNOOB\Debug\预处理器.pdb (Partial PDB)
