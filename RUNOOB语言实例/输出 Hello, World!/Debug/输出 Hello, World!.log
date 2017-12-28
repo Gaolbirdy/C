@@ -1,0 +1,4 @@
+﻿  program.c
+d:\c\runoob语言实例\输出 hello, world!\program.c(7): warning C4013: “system”未定义；假设外部返回 int
+  输出 Hello, World!.vcxproj -> D:\C\RUNOOB语言实例\Debug\输出 Hello, World!.exe
+  输出 Hello, World!.vcxproj -> D:\C\RUNOOB语言实例\Debug\输出 Hello, World!.pdb (Partial PDB)
