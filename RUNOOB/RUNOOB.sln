@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "教程", "教程\教程.vcxproj", "{DE544000-8A3E-4FFA-A889-AB79CB6E8924}"
 EndProject
@@ -56,6 +56,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "头文件", "头文件\头文件.vcxproj", "{E6DED355-17AC-4034-8368-716B7F97312E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "强制类型转换", "强制类型转换\强制类型转换.vcxproj", "{1421C0EE-29D8-4DD2-B346-0758164453BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "错误处理", "错误处理\错误处理.vcxproj", "{FEE6CAE8-2BDB-4AA8-9EC2-E84A99DAEA59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -281,6 +283,14 @@ Global
 		{1421C0EE-29D8-4DD2-B346-0758164453BE}.Release|x64.Build.0 = Release|x64
 		{1421C0EE-29D8-4DD2-B346-0758164453BE}.Release|x86.ActiveCfg = Release|Win32
 		{1421C0EE-29D8-4DD2-B346-0758164453BE}.Release|x86.Build.0 = Release|Win32
+		{FEE6CAE8-2BDB-4AA8-9EC2-E84A99DAEA59}.Debug|x64.ActiveCfg = Debug|x64
+		{FEE6CAE8-2BDB-4AA8-9EC2-E84A99DAEA59}.Debug|x64.Build.0 = Debug|x64
+		{FEE6CAE8-2BDB-4AA8-9EC2-E84A99DAEA59}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEE6CAE8-2BDB-4AA8-9EC2-E84A99DAEA59}.Debug|x86.Build.0 = Debug|Win32
+		{FEE6CAE8-2BDB-4AA8-9EC2-E84A99DAEA59}.Release|x64.ActiveCfg = Release|x64
+		{FEE6CAE8-2BDB-4AA8-9EC2-E84A99DAEA59}.Release|x64.Build.0 = Release|x64
+		{FEE6CAE8-2BDB-4AA8-9EC2-E84A99DAEA59}.Release|x86.ActiveCfg = Release|Win32
+		{FEE6CAE8-2BDB-4AA8-9EC2-E84A99DAEA59}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

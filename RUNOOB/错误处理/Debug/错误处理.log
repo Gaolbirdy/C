@@ -1,0 +1,11 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  错误处理.c
+d:\c\runoob\错误处理\错误处理.c(5): warning C4273: “_errno”: dll 链接不一致
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\errno.h(18): note: 参见“_errno”的前一个定义
+d:\c\runoob\错误处理\错误处理.c(24): warning C4013: “system”未定义；假设外部返回 int
+d:\c\runoob\错误处理\错误处理.c(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\c\runoob\错误处理\错误处理.c(17): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(181): note: 参见“strerror”的声明
+  错误处理.vcxproj -> D:\C\RUNOOB\Debug\错误处理.exe
+  错误处理.vcxproj -> D:\C\RUNOOB\Debug\错误处理.pdb (Partial PDB)
