@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "输出 Hello, World!", "输出 Hello, World!\输出 Hello, World!.vcxproj", "{062C1E91-0567-488F-8312-6DB9443FE1E3}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符转 ASCII 码", "字符转 ASCII 码\字符转 ASCII 码.vcxproj", "{D4214570-1420-4B77-BDE3-C762DF0B6525}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "两数相除", "两数相除\两数相除.vcxproj", "{AD86FC3A-26F7-491F-8F71-2318E8678416}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "计算 int, float, double 和 char 字节大小", "计算 int, float, double 和 char 字节大小\计算 int, float, double 和 char 字节大小.vcxproj", "{CD6E4FD1-CA20-42DF-9FD1-25A95545B70A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "交换两个数的值", "交换两个数的值\交换两个数的值.vcxproj", "{97637CA3-35FD-4B8B-84A6-CF617DB774F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断奇数偶数", "判断奇数偶数\判断奇数偶数.vcxproj", "{60616C47-7410-41B3-B75D-9349C173A307}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +77,30 @@ Global
 		{AD86FC3A-26F7-491F-8F71-2318E8678416}.Release|x64.Build.0 = Release|x64
 		{AD86FC3A-26F7-491F-8F71-2318E8678416}.Release|x86.ActiveCfg = Release|Win32
 		{AD86FC3A-26F7-491F-8F71-2318E8678416}.Release|x86.Build.0 = Release|Win32
+		{CD6E4FD1-CA20-42DF-9FD1-25A95545B70A}.Debug|x64.ActiveCfg = Debug|x64
+		{CD6E4FD1-CA20-42DF-9FD1-25A95545B70A}.Debug|x64.Build.0 = Debug|x64
+		{CD6E4FD1-CA20-42DF-9FD1-25A95545B70A}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD6E4FD1-CA20-42DF-9FD1-25A95545B70A}.Debug|x86.Build.0 = Debug|Win32
+		{CD6E4FD1-CA20-42DF-9FD1-25A95545B70A}.Release|x64.ActiveCfg = Release|x64
+		{CD6E4FD1-CA20-42DF-9FD1-25A95545B70A}.Release|x64.Build.0 = Release|x64
+		{CD6E4FD1-CA20-42DF-9FD1-25A95545B70A}.Release|x86.ActiveCfg = Release|Win32
+		{CD6E4FD1-CA20-42DF-9FD1-25A95545B70A}.Release|x86.Build.0 = Release|Win32
+		{97637CA3-35FD-4B8B-84A6-CF617DB774F4}.Debug|x64.ActiveCfg = Debug|x64
+		{97637CA3-35FD-4B8B-84A6-CF617DB774F4}.Debug|x64.Build.0 = Debug|x64
+		{97637CA3-35FD-4B8B-84A6-CF617DB774F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{97637CA3-35FD-4B8B-84A6-CF617DB774F4}.Debug|x86.Build.0 = Debug|Win32
+		{97637CA3-35FD-4B8B-84A6-CF617DB774F4}.Release|x64.ActiveCfg = Release|x64
+		{97637CA3-35FD-4B8B-84A6-CF617DB774F4}.Release|x64.Build.0 = Release|x64
+		{97637CA3-35FD-4B8B-84A6-CF617DB774F4}.Release|x86.ActiveCfg = Release|Win32
+		{97637CA3-35FD-4B8B-84A6-CF617DB774F4}.Release|x86.Build.0 = Release|Win32
+		{60616C47-7410-41B3-B75D-9349C173A307}.Debug|x64.ActiveCfg = Debug|x64
+		{60616C47-7410-41B3-B75D-9349C173A307}.Debug|x64.Build.0 = Debug|x64
+		{60616C47-7410-41B3-B75D-9349C173A307}.Debug|x86.ActiveCfg = Debug|Win32
+		{60616C47-7410-41B3-B75D-9349C173A307}.Debug|x86.Build.0 = Debug|Win32
+		{60616C47-7410-41B3-B75D-9349C173A307}.Release|x64.ActiveCfg = Release|x64
+		{60616C47-7410-41B3-B75D-9349C173A307}.Release|x64.Build.0 = Release|x64
+		{60616C47-7410-41B3-B75D-9349C173A307}.Release|x86.ActiveCfg = Release|Win32
+		{60616C47-7410-41B3-B75D-9349C173A307}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
