@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "输出 Hello, World!", "输出 Hello, World!\输出 Hello, World!.vcxproj", "{062C1E91-0567-488F-8312-6DB9443FE1E3}"
 EndProject
@@ -20,6 +20,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "交换两个数的值", "交换两个数的值\交换两个数的值.vcxproj", "{97637CA3-35FD-4B8B-84A6-CF617DB774F4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断奇数偶数", "判断奇数偶数\判断奇数偶数.vcxproj", "{60616C47-7410-41B3-B75D-9349C173A307}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断元音辅音", "判断元音辅音\判断元音辅音.vcxproj", "{3195FBC2-4935-44D6-94FC-B8173FE8539F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断三个数中的最大数", "判断三个数中的最大数\判断三个数中的最大数.vcxproj", "{E36A5CF4-B9CA-45B9-A72B-8D094C314BE5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "一元二次方程", "一元二次方程\一元二次方程.vcxproj", "{91F64AD1-D2BC-4738-BF26-12FC0B76DE57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +107,30 @@ Global
 		{60616C47-7410-41B3-B75D-9349C173A307}.Release|x64.Build.0 = Release|x64
 		{60616C47-7410-41B3-B75D-9349C173A307}.Release|x86.ActiveCfg = Release|Win32
 		{60616C47-7410-41B3-B75D-9349C173A307}.Release|x86.Build.0 = Release|Win32
+		{3195FBC2-4935-44D6-94FC-B8173FE8539F}.Debug|x64.ActiveCfg = Debug|x64
+		{3195FBC2-4935-44D6-94FC-B8173FE8539F}.Debug|x64.Build.0 = Debug|x64
+		{3195FBC2-4935-44D6-94FC-B8173FE8539F}.Debug|x86.ActiveCfg = Debug|Win32
+		{3195FBC2-4935-44D6-94FC-B8173FE8539F}.Debug|x86.Build.0 = Debug|Win32
+		{3195FBC2-4935-44D6-94FC-B8173FE8539F}.Release|x64.ActiveCfg = Release|x64
+		{3195FBC2-4935-44D6-94FC-B8173FE8539F}.Release|x64.Build.0 = Release|x64
+		{3195FBC2-4935-44D6-94FC-B8173FE8539F}.Release|x86.ActiveCfg = Release|Win32
+		{3195FBC2-4935-44D6-94FC-B8173FE8539F}.Release|x86.Build.0 = Release|Win32
+		{E36A5CF4-B9CA-45B9-A72B-8D094C314BE5}.Debug|x64.ActiveCfg = Debug|x64
+		{E36A5CF4-B9CA-45B9-A72B-8D094C314BE5}.Debug|x64.Build.0 = Debug|x64
+		{E36A5CF4-B9CA-45B9-A72B-8D094C314BE5}.Debug|x86.ActiveCfg = Debug|Win32
+		{E36A5CF4-B9CA-45B9-A72B-8D094C314BE5}.Debug|x86.Build.0 = Debug|Win32
+		{E36A5CF4-B9CA-45B9-A72B-8D094C314BE5}.Release|x64.ActiveCfg = Release|x64
+		{E36A5CF4-B9CA-45B9-A72B-8D094C314BE5}.Release|x64.Build.0 = Release|x64
+		{E36A5CF4-B9CA-45B9-A72B-8D094C314BE5}.Release|x86.ActiveCfg = Release|Win32
+		{E36A5CF4-B9CA-45B9-A72B-8D094C314BE5}.Release|x86.Build.0 = Release|Win32
+		{91F64AD1-D2BC-4738-BF26-12FC0B76DE57}.Debug|x64.ActiveCfg = Debug|x64
+		{91F64AD1-D2BC-4738-BF26-12FC0B76DE57}.Debug|x64.Build.0 = Debug|x64
+		{91F64AD1-D2BC-4738-BF26-12FC0B76DE57}.Debug|x86.ActiveCfg = Debug|Win32
+		{91F64AD1-D2BC-4738-BF26-12FC0B76DE57}.Debug|x86.Build.0 = Debug|Win32
+		{91F64AD1-D2BC-4738-BF26-12FC0B76DE57}.Release|x64.ActiveCfg = Release|x64
+		{91F64AD1-D2BC-4738-BF26-12FC0B76DE57}.Release|x64.Build.0 = Release|x64
+		{91F64AD1-D2BC-4738-BF26-12FC0B76DE57}.Release|x86.ActiveCfg = Release|Win32
+		{91F64AD1-D2BC-4738-BF26-12FC0B76DE57}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
