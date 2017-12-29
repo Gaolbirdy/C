@@ -1,0 +1,4 @@
+﻿  main.c
+d:\c\yiibai\vs开发环境安装\main.c(8): warning C4013: “system”未定义；假设外部返回 int
+  VS开发环境安装.vcxproj -> D:\C\yiibai\Debug\VS开发环境安装.exe
+  VS开发环境安装.vcxproj -> D:\C\yiibai\Debug\VS开发环境安装.pdb (Partial PDB)
