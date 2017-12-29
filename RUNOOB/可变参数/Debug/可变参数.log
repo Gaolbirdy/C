@@ -1,0 +1,4 @@
+﻿  可变参数.c
+d:\c\runoob\可变参数\可变参数.c(44): warning C4013: “system”未定义；假设外部返回 int
+  可变参数.vcxproj -> D:\C\RUNOOB\Debug\可变参数.exe
+  可变参数.vcxproj -> D:\C\RUNOOB\Debug\可变参数.pdb (Partial PDB)
