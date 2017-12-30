@@ -1,0 +1,6 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  main.c
+d:\c\yiibai\通过值和引用调用函数\main.c(19): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
+  通过值和引用调用函数.vcxproj -> D:\C\yiibai\Debug\通过值和引用调用函数.exe
+  通过值和引用调用函数.vcxproj -> D:\C\yiibai\Debug\通过值和引用调用函数.pdb (Partial PDB)
