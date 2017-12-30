@@ -27,11 +27,20 @@ double average(int num, ...)
 	// 访问所有赋给valist的参数
 	for (i = 0; i < num; i++)
 	{
+		printf("%p\n", valist);
+		printf("%d\n", *valist);
+
 		sum += va_arg(valist, int);
+		printf("%p\n", valist);
+		printf("%d\n\n", *valist);
+
+		//printf("%d\n", va_arg(valist, int));
 	}
 
 	// 清理为valist保留的内存
 	va_end(valist);
+	printf("%p\n", valist);
+	//printf("%d\n", *valist);
 
 	return sum / num;
 }
