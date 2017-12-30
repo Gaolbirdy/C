@@ -1,0 +1,9 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  main.c
+d:\c\yiibai\strrev()函数\main.c(10): warning C4013: “gets”未定义；假设外部返回 int
+d:\c\yiibai\strrev()函数\main.c(12): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strrev. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(579): note: 参见“strrev”的声明
+d:\c\yiibai\strrev()函数\main.c(14): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
+  strrev()函数.vcxproj -> D:\C\yiibai\Debug\strrev()函数.exe
+  strrev()函数.vcxproj -> D:\C\yiibai\Debug\strrev()函数.pdb (Partial PDB)
