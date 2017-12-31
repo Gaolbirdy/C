@@ -1,0 +1,4 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  main.c
+  include指令.vcxproj -> D:\C\yiibai\Debug\include指令.exe
+  include指令.vcxproj -> D:\C\yiibai\Debug\include指令.pdb (Partial PDB)

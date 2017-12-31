@@ -1,0 +1,7 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  main.c
+d:\c\yiibai\error指令\main.c(11): warning C4305: “初始化”: 从“double”到“float”截断
+d:\c\yiibai\error指令\main.c(15): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
+  error指令.vcxproj -> D:\C\yiibai\Debug\error指令.exe
+  error指令.vcxproj -> D:\C\yiibai\Debug\error指令.pdb (Partial PDB)
