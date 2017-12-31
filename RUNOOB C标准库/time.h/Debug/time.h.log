@@ -1,0 +1,7 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  main.c
+d:\c\runoob c标准库\time.h\main.c(131): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+d:\c\runoob c标准库\time.h\main.c(142): warning C4013: “getch”未定义；假设外部返回 int
+d:\c\runoob c标准库\time.h\main.c(121): warning C4101: “buffer”: 未引用的局部变量
+  time.h.vcxproj -> D:\C\RUNOOB C标准库\Debug\time.h.exe
+  time.h.vcxproj -> D:\C\RUNOOB C标准库\Debug\time.h.pdb (Partial PDB)
