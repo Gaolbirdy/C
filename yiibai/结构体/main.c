@@ -29,5 +29,11 @@ void main()
 	printf("employee 2 name: %s\n", e2.name);
 	printf("employee 3 salary: %f\n", e2.salary);
 
+	struct employee *ep;
+	ep = &e1;
+	printf("employee ep id: %d\n", ep->id);
+	printf("employee ep name: %s\n", ep->name);
+	printf("employee ep salary: %f\n", ep->salary);
+
 	getch();
 }

@@ -1,0 +1,8 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  main.c
+d:\c\yiibai\fseek()函数\main.c(7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\c\yiibai\fseek()函数\main.c(20): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
+  fseek()函数.vcxproj -> D:\C\yiibai\Debug\fseek()函数.exe
+  fseek()函数.vcxproj -> D:\C\yiibai\Debug\fseek()函数.pdb (Partial PDB)

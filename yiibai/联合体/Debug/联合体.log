@@ -1,0 +1,22 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  main.c
+d:\c\yiibai\联合体\main.c(45): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“U1 *”
+d:\c\yiibai\联合体\main.c(46): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“char (*)[9]”
+d:\c\yiibai\联合体\main.c(47): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“int *”
+d:\c\yiibai\联合体\main.c(48): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“double *”
+d:\c\yiibai\联合体\main.c(50): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“U1 *”
+d:\c\yiibai\联合体\main.c(50): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“U1 *”
+d:\c\yiibai\联合体\main.c(51): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“U1 *”
+d:\c\yiibai\联合体\main.c(51): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“U1 *”
+d:\c\yiibai\联合体\main.c(52): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“U1 *”
+d:\c\yiibai\联合体\main.c(52): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“U1 *”
+d:\c\yiibai\联合体\main.c(54): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“U2 *”
+d:\c\yiibai\联合体\main.c(54): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“U2 *”
+d:\c\yiibai\联合体\main.c(55): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“U2 *”
+d:\c\yiibai\联合体\main.c(55): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“U2 *”
+d:\c\yiibai\联合体\main.c(56): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“U2 *”
+d:\c\yiibai\联合体\main.c(56): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“U2 *”
+d:\c\yiibai\联合体\main.c(73): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
+  联合体.vcxproj -> D:\C\yiibai\Debug\联合体.exe
+  联合体.vcxproj -> D:\C\yiibai\Debug\联合体.pdb (Partial PDB)
