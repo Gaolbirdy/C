@@ -2,6 +2,7 @@
 #include <time.h>
 #include <string.h>
 
+// 1
 //void main()
 //{
 //	struct tm t;
@@ -19,6 +20,8 @@
 //	getch();
 //}
 
+
+// 2
 //void main()
 //{
 //	clock_t start_t, end_t;
@@ -42,6 +45,7 @@
 //	getch();
 //}
 
+// 3
 //void main()
 //{
 //	time_t curtime;
@@ -53,6 +57,8 @@
 //	getch();
 //}
 
+
+// 4
 //#ifdef _WIN32
 //#include <Windows.h>
 //#else
@@ -79,6 +85,8 @@
 //	getch();
 //}
 
+
+// 5
 //#define BST (+1)
 //#define CCT (+8)
 //
@@ -97,6 +105,8 @@
 //	getch();
 //}
 
+
+// 6
 //void main()
 //{
 //	time_t rawtime;
@@ -114,29 +124,79 @@
 //	getch();
 //}
 
+
+// 7
+//void main()
+//{
+//	int ret;
+//	struct tm info;
+//	char buffer[80];
+//
+//	info.tm_year = 2001 - 1900;
+//	info.tm_mon = 7 - 1;
+//	info.tm_mday = 4;
+//	info.tm_hour = 0;
+//	info.tm_min = 0;
+//	info.tm_sec = 1;
+//	info.tm_isdst = -1;
+//
+//	ret = mktime(&info);
+//	if (ret == -1)
+//	{
+//		printf("错误：不能使用 mktime 转换时间。\n");
+//	}
+//	else
+//	{
+//		strftime(buffer, sizeof(buffer), "%c", &info);
+//		printf(buffer);
+//	}
+//
+//	getch();
+//}
+
+
+// 8
+//void main()
+//{
+//	time_t rawtime;
+//	struct tm *info;
+//	char buffer[80];
+//
+//	time(&rawtime);
+//
+//	info = localtime(&rawtime);
+//
+//	strftime(buffer, 80, "%x - %I:%M%p", info);
+//	printf("格式化的日期 & 时间 ：|%s|\n", buffer);
+//
+//	getch();
+//}
+
+
+// 9
 void main()
 {
-	int ret;
-	struct tm info;
-	char buffer[80];
+	time_t seconds;
+	time_t seconds2;
+	time_t seconds3 = 0;
+	time_t seconds4 = 0;
 
-	info.tm_year = 2001 - 1900;
-	info.tm_mon = 7 - 1;
-	info.tm_mday = 4;
-	info.tm_hour = 0;
-	info.tm_min = 0;
-	info.tm_sec = 1;
-	info.tm_isdst = -1;
+	seconds = time(NULL);
+	printf("自 1970-01-01起的小时数 = %ld\n", seconds / 3600);
+	printf("自 1970-01-01起的秒数 = %ld\n\n", seconds);
 
-	ret = mktime(&info);
-	if (ret == -1)
-	{
-		printf("错误：不能使用 mktime 转换时间。\n");
-	}
-	else
-	{
+	time(&seconds2);
+	printf("自 1970-01-01起的小时数 = %ld\n", seconds2 / 3600);
+	printf("自 1970-01-01起的秒数 = %ld\n\n", seconds2);
 
-	}
+	printf("自 1970-01-01起的秒数 = %ld\n", time(NULL));
+	printf("自 1970-01-01起的秒数 = %ld\n\n", time(0));
+
+	printf("自 1970-01-01起的秒数 = %ld\n", time(seconds3));
+	printf("自 1970-01-01起的秒数 = %ld\n\n", seconds3);
+
+	printf("自 1970-01-01起的秒数 = %ld\n", time(&seconds4));
+	printf("自 1970-01-01起的秒数 = %ld\n\n", seconds4);
 
 	getch();
 }

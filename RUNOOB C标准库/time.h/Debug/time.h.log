@@ -1,7 +1,37 @@
 ﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
   main.c
-d:\c\runoob c标准库\time.h\main.c(131): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
-d:\c\runoob c标准库\time.h\main.c(142): warning C4013: “getch”未定义；假设外部返回 int
-d:\c\runoob c标准库\time.h\main.c(121): warning C4101: “buffer”: 未引用的局部变量
+d:\c\runoob c标准库\time.h\main.c(179): warning C4047: “函数”:“time_t *const ”与“time_t”的间接级别不同
+d:\c\runoob c标准库\time.h\main.c(179): warning C4024: “time”: 形参和实参 1 的类型不同
+d:\c\runoob c标准库\time.h\main.c(185): warning C4013: “getch”未定义；假设外部返回 int
+d:\c\runoob c标准库\time.h\main.c(169): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(169): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(169): note: 请考虑在格式字符串中使用“%I64d”
+d:\c\runoob c标准库\time.h\main.c(170): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(170): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(170): note: 请考虑在格式字符串中使用“%I64d”
+d:\c\runoob c标准库\time.h\main.c(173): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(173): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(173): note: 请考虑在格式字符串中使用“%I64d”
+d:\c\runoob c标准库\time.h\main.c(174): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(174): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(174): note: 请考虑在格式字符串中使用“%I64d”
+d:\c\runoob c标准库\time.h\main.c(176): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(176): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(176): note: 请考虑在格式字符串中使用“%I64d”
+d:\c\runoob c标准库\time.h\main.c(177): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(177): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(177): note: 请考虑在格式字符串中使用“%I64d”
+d:\c\runoob c标准库\time.h\main.c(179): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(179): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(179): note: 请考虑在格式字符串中使用“%I64d”
+d:\c\runoob c标准库\time.h\main.c(180): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(180): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(180): note: 请考虑在格式字符串中使用“%I64d”
+d:\c\runoob c标准库\time.h\main.c(182): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(182): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(182): note: 请考虑在格式字符串中使用“%I64d”
+d:\c\runoob c标准库\time.h\main.c(183): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  d:\c\runoob c标准库\time.h\main.c(183): note: 请考虑在格式字符串中使用“%lld”
+  d:\c\runoob c标准库\time.h\main.c(183): note: 请考虑在格式字符串中使用“%I64d”
   time.h.vcxproj -> D:\C\RUNOOB C标准库\Debug\time.h.exe
   time.h.vcxproj -> D:\C\RUNOOB C标准库\Debug\time.h.pdb (Partial PDB)
