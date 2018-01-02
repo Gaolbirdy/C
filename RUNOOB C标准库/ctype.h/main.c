@@ -378,10 +378,57 @@
 //	getch();
 //}
 
+//void main()
+//{
+//	char var1[] = "tuts";
+//	char var2[] = "0xE";
+//
+//	if (isxdigit(var1[0]))
+//	{
+//		printf("var1 = |%s| 是十六进制数字\n", var1);
+//	}
+//	else
+//	{
+//		printf("var1 = |%s| 不是十六进制数字\n", var1);
+//	}
+//
+//	if (isxdigit(var2[0]))
+//	{
+//		printf("var2 = |%s| 是十六进制数字\n", var2);
+//	}
+//	else
+//	{
+//		printf("var2 = |%s| 不是十六进制数字\n", var2);
+//	}
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	int i = 0;
+//	char str[] = "W3CSCHOOL TUTORIALS";
+//
+//	while (str[i])	// 字符串末尾 '\0' == 0
+//	{
+//		putchar(tolower(str[i]));
+//		i++;
+//	}
+//
+//	getch();
+//}
+
 void main()
 {
-	char var1 = "tuts";
-	char var2 = "0xE";
+	int i = 0;
+	char str[] = "W3CSCHOOL Tutorials";
+
+	while (str[i])
+	{
+		putchar(toupper(str[i]));
+		i++;
+	}
+
 
 	getch();
 }
