@@ -12,38 +12,38 @@
 //
 //	if (isalnum(var1))
 //	{
-//		printf("var1 = |%c| 是字母\n", var1);
+//		printf("var1 = |%c| 是字母数字\n", var1);
 //	}
 //	else
 //	{
-//		printf("var1 = |%c| 不是字母\n", var1);
+//		printf("var1 = |%c| 不是字母数字\n", var1);
 //	}
 //
 //	if (isalnum(var2))
 //	{
-//		printf("var2 = |%c| 是字母\n", var2);
+//		printf("var2 = |%c| 是字母数字\n", var2);
 //	}
 //	else
 //	{
-//		printf("var2 = |%c| 不是字母\n", var2);
+//		printf("var2 = |%c| 不是字母数字\n", var2);
 //	}
 //
 //	if (isalnum(var3))
 //	{
-//		printf("var3 = |%c| 是字母\n", var3);
+//		printf("var3 = |%c| 是字母数字\n", var3);
 //	}
 //	else
 //	{
-//		printf("var3 = |%c| 不是字母\n", var3);
+//		printf("var3 = |%c| 不是字母数字\n", var3);
 //	}
 //
 //	if (isalnum(var4))
 //	{
-//		printf("var4 = |%c| 是字母\n", var4);
+//		printf("var4 = |%c| 是字母数字\n", var4);
 //	}
 //	else
 //	{
-//		printf("var4 = |%c| 不是字母\n", var4);
+//		printf("var4 = |%c| 不是字母数字\n", var4);
 //	}
 //
 //	getch();
@@ -58,38 +58,38 @@
 //
 //	if (isalpha(var1))
 //	{
-//		printf("var1 = |%c| 是字母\n", var1);
+//		printf("var1 = |%c| 是一个字母\n", var1);
 //	}
 //	else
 //	{
-//		printf("var1 = |%c| 不是字母\n", var1);
+//		printf("var1 = |%c| 不是一个字母\n", var1);
 //	}
 //
 //	if (isalpha(var2))
 //	{
-//		printf("var2 = |%c| 是字母\n", var2);
+//		printf("var2 = |%c| 是一个字母\n", var2);
 //	}
 //	else
 //	{
-//		printf("var2 = |%c| 不是字母\n", var2);
+//		printf("var2 = |%c| 不是一个字母\n", var2);
 //	}
 //
 //	if (isalpha(var3))
 //	{
-//		printf("var3 = |%c| 是字母\n", var3);
+//		printf("var3 = |%c| 是一个字母\n", var3);
 //	}
 //	else
 //	{
-//		printf("var3 = |%c| 不是字母\n", var3);
+//		printf("var3 = |%c| 不是一个字母\n", var3);
 //	}
 //
 //	if (isalpha(var4))
 //	{
-//		printf("var4 = |%c| 是字母\n", var4);
+//		printf("var4 = |%c| 是一个字母\n", var4);
 //	}
 //	else
 //	{
-//		printf("var4 = |%c| 不是字母\n", var4);
+//		printf("var4 = |%c| 不是一个字母\n", var4);
 //	}
 //
 //	getch();
