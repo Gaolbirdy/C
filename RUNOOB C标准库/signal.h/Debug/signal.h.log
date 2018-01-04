@@ -1,6 +1,8 @@
 ﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
   main.c
-d:\c\runoob c标准库\signal.h\main.c(22): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+d:\c\runoob c标准库\signal.h\main.c(34): warning C4047: “=”:“int”与“_crt_signal_t”的间接级别不同
+d:\c\runoob c标准库\signal.h\main.c(37): warning C4047: “==”:“int”与“_crt_signal_t”的间接级别不同
+d:\c\runoob c标准库\signal.h\main.c(51): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
   signal.h.vcxproj -> D:\C\RUNOOB C标准库\Debug\signal.h.exe
   signal.h.vcxproj -> D:\C\RUNOOB C标准库\Debug\signal.h.pdb (Partial PDB)
