@@ -2,7 +2,7 @@
 #include <conio.h>
 #include <signal.h>
 #include <Windows.h>
-#include <stdint.h>
+#include <stdlib.h>
 
 void sighandler(int);
 
