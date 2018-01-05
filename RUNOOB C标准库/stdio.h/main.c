@@ -588,3 +588,266 @@
 //
 //	getch();
 //}
+
+//void main()
+//{
+//	char str1[20], str2[30];
+//
+//	printf("请输入用户名：");
+//	scanf("%s", str1);
+//
+//	printf("请输入您的网站：");
+//	scanf("%s", str2);
+//
+//	printf("输入的用户名：%s\n", str1);
+//	printf("输入的网站：%s", str2);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	int day, year;
+//	char weekday[20], month[20], dtm[20];
+//
+//	strcpy(dtm, "Saturday March 25 1989");
+//	sscanf(dtm, "%s %s %d  %d", weekday, month, &day, &year);
+//
+//	printf("%s %d，%d = %s\n", month, day, year, weekday);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	FILE *fp;
+//	int c;
+//	int n = 0;
+//
+//	fp = fopen("file.txt", "r");
+//	if (fp == NULL)
+//	{
+//		perror("打开文件时发生错误");
+//		return(-1);
+//	}
+//
+//
+//	do
+//	{
+//		c = fgetc(fp);
+//		if (feof(fp))
+//		{
+//			break;
+//		}
+//		printf("%c", c);
+//	} while (1);
+//
+//	fclose(fp);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	FILE *fp;
+//	char str[60];
+//
+//	fp = fopen("file.txt", "r");
+//	if (fp == NULL)
+//	{
+//		perror("打开文件时发生错误");
+//		return(-1);
+//	}
+//
+//	if (fgets(str, sizeof(str), fp) != NULL)
+//	{
+//		puts(str);
+//	}
+//	fclose(fp);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	FILE *fp;
+//	int ch;
+//
+//	fp = fopen("file.txt", "w+");
+//	for (ch = 33; ch  <= 100; ch ++)
+//	{
+//		fputc(ch, fp);
+//	}
+//	fclose(fp);
+//
+//	int c;
+//	fp = fopen("file.txt", "r");
+//	while (1)
+//	{
+//		c = fgetc(fp);
+//		if (feof(fp))
+//		{
+//			break;
+//		}
+//		printf("%c", c);
+//	}
+//	fclose(fp);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	FILE *fp;
+//
+//	fp = fopen("file.txt", "w+");
+//
+//	fputs("这是c语言。", fp);
+//	fputs("这是一种系统程序设计语言", fp);
+//
+//	fclose(fp);
+//
+//	int c;
+//
+//	fp = fopen("file.txt", "r");
+//	while (1)
+//	{
+//		c = fgetc(fp);
+//		if (feof(fp))
+//		{
+//			break;
+//		}
+//		printf("%c", c);
+//	}
+//	fclose(fp);
+//	getch();
+//}
+
+//void main()
+//{
+//	char c;
+//
+//	printf("请输入字符：");
+//	c = getc(stdin);
+//	printf("输入的字符：");
+//	putc(c, stdout);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	char c;
+//
+//	printf("请输入字符：");
+//	c = getchar();
+//		
+//	printf("输入的字符：");
+//	//putchar(c);
+//	putc(c, stdout);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	char str[50];
+//
+//	printf("请输入一个字符串：");
+//	gets(str);
+//
+//	printf("您输入的字符串是: %s", str);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	FILE *fp;
+//	int ch;
+//
+//	fp = fopen("file.txt", "w");
+//	for (ch = 33; ch <= 100; ch++)
+//	{
+//		putc(ch, fp);
+//	}
+//	fclose(fp);
+//
+//	int c;
+//
+//	fp = fopen("file.txt", "r");
+//	while (1)
+//	{
+//		c = fgetc(fp);
+//		if (feof(fp))
+//		{
+//			break;
+//		}
+//		printf("%c", c);
+//	}
+//	fclose(fp);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	char ch;
+//
+//	for (ch = 'A'; ch <= 'Z'; ch++)
+//	{
+//		putchar(ch);
+//	}
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	char str1[15];
+//	char str2[15];
+//
+//	strcpy(str1, "RUNOOB1");
+//	strcpy(str2, "RUNOOB2");
+//
+//	puts(str1);
+//	puts(str2);
+//
+//	getch();
+//}
+
+void main()
+{
+	FILE *fp;
+	int c;
+	char buffer[256];
+
+	fp = fopen("file.txt", "r");
+	if (fp == NULL)
+	{
+		perror("打开文件时发生错误");
+		return(-1);
+	}
+
+	while (!feof(fp))
+	{
+		c = getc(fp);
+
+		if (c == '!')
+		{
+			ungetc('+', fp);
+		}
+		else
+		{
+			unget(c, fp);
+		}
+
+		fgets(buffer, 255, fp);
+		fputs(buffer, stdout);
+	}
+
+	fclose(fp);
+
+
+	getch();
+}
