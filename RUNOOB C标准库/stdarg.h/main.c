@@ -4,6 +4,8 @@
 
 int sum(int, ...);
 
+int mul(int, ...);
+
 void main()
 {
 	printf("10、20和30的和 = %d\n", sum(3, 10, 20, 30));
@@ -11,6 +13,8 @@ void main()
 
 	printf("15和56的和 = %d\n", sum(2, 15, 56));
 
+	printf("15 * 20 = %d\n", mul(2, 15, 12));
+	
 	getch();
 }
 
@@ -25,6 +29,22 @@ int sum(int num_args, ...)
 	for (i = 0; i < num_args; i++)
 	{
 		val += va_arg(ap, int);
+	}
+	va_end(ap);
+
+	return val;
+}
+
+int mul(int num_args, ...)
+{
+	int val = 1;
+	va_list ap;
+	int i;
+
+	va_start(ap, num_args);
+	for (i = 0; i < num_args; i++)
+	{
+		val *= va_arg(ap, int);
 	}
 	va_end(ap);
 
