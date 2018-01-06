@@ -2,6 +2,7 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 //void main()
 //{
@@ -220,10 +221,138 @@
 //	getch();
 //}
 
-void main()
-{
-	char command[50];
+//void main()
+//{
+//	char command[50];
+//
+//	strcpy(command, "dir");
+//	system(command);
+//
+//	getch();
+//}
 
-	strcpy(command, "ls -l");
-	system(command);
-}
+//int cmpfunc(const void *a, const void *b)
+//{
+//	return (*(int*)a - *(int*)b);
+//}
+//
+//int values[] = { 5,20,29,32,63 };
+//
+//void main()
+//{
+//	int *item;
+//	int key = 32;
+//
+//	// 使用bsearch()在数组中查找值32
+//	item = (int*)bsearch(&key, values, 5, sizeof(int), cmpfunc);
+//
+//	if (item != NULL)
+//	{
+//		printf("Found item = %d\n", *item);
+//	}
+//	else
+//	{
+//		printf("Item = %d could not be found\n", *item);
+//	}
+//
+//	getch();
+//}
+
+//int values[] = { 88,56,100,2,25 };
+//
+//int cmpfunc(const void *a, const void *b) 
+//{
+//	return (*(int*)a - *(int*)b);
+//}
+//
+//void main()
+//{
+//	int n;
+//
+//	printf("排序之前的列表：\n");
+//	for (n = 0; n < 5; n++)
+//	{
+//		printf("%d ", values[n]);
+//	}
+//
+//	qsort(values, 5, sizeof(int), cmpfunc);
+//
+//	printf("\n排序之后的列表：\n");
+//	for (n = 0; n < 5; n++)
+//	{
+//		printf("%d ", values[n]);
+//	}
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	int a, b;
+//
+//	a = abs(5);
+//	printf("a 的值 = %d\n", a);
+//
+//	b = abs(-10);
+//	printf("b 的值 = %d\n", b);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	div_t output;
+//
+//	output = div(27, 4);
+//	printf("(27 / 4) 的商 = %d\n", output.quot);
+//	printf("(27 / 4) 的余数 = %d\n", output.rem);
+//
+//	output = div(27, 3);
+//	printf("(27 / 3) 的商 = %d\n", output.quot);
+//	printf("(27 / 3) 的余数 = %d\n", output.rem);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	long int a, b;
+//
+//	a = labs(65987L);
+//	printf("a 的值 = %ld\n", a);
+//
+//	b = labs(-1005090L);
+//	printf("b 的值 = %ld\n", b);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	ldiv_t output;
+//
+//	output = ldiv(100000L, 30000L);
+//
+//	printf("商 = %ld\n", output.quot);
+//	printf("余数 = %ld\n", output.rem);
+//
+//	getch();
+//}
+
+//void main()
+//{
+//	int i, n;
+//	time_t t;
+//
+//	n = 5;
+//
+//	// 初始化随机数发生器
+//	srand((unsigned)time(&t));
+//
+//	for (i = 0; i < n; i++)
+//	{
+//		printf("%d\n", rand() % 50);
+//	}
+//
+//	getch();
+//}
