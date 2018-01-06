@@ -816,38 +816,55 @@
 //	getch();
 //}
 
+//void main()
+//{
+//	FILE *fp;
+//	int c;
+//	char buffer[256];
+//
+//	fp = fopen("file.txt", "r");
+//	if (fp == NULL)
+//	{
+//		perror("打开文件时发生错误");
+//		return(-1);
+//	}
+//
+//	while (!feof(fp))
+//	{
+//		c = getc(fp);
+//
+//		if (c == '!')
+//		{
+//			ungetc('+', fp);
+//		}
+//		else
+//		{
+//			ungetc(c, fp);
+//		}
+//
+//		fgets(buffer, 255, fp);
+//		fputs(buffer, stdout);
+//	}
+//
+//	fclose(fp);
+//
+//
+//	getch();
+//}
+
 void main()
 {
 	FILE *fp;
-	int c;
-	char buffer[256];
 
-	fp = fopen("file.txt", "r");
+	//int ret =rename("file.txt", "newfile.txt");
+
+	fp = fopen("file1.txt", "r");
 	if (fp == NULL)
 	{
-		perror("打开文件时发生错误");
-		return(-1);
+		perror("Error ");
+		//return(-1);
 	}
-
-	while (!feof(fp))
-	{
-		c = getc(fp);
-
-		if (c == '!')
-		{
-			ungetc('+', fp);
-		}
-		else
-		{
-			unget(c, fp);
-		}
-
-		fgets(buffer, 255, fp);
-		fputs(buffer, stdout);
-	}
-
 	fclose(fp);
-
 
 	getch();
 }

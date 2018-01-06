@@ -1,0 +1,15 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  main.c
+d:\c\runoob c标准库\stdlib.h\main.c(216): warning C4129: “%”: 不可识别的字符转义序列
+d:\c\runoob c标准库\stdlib.h\main.c(217): warning C4129: “%”: 不可识别的字符转义序列
+d:\c\runoob c标准库\stdlib.h\main.c(218): warning C4129: “%”: 不可识别的字符转义序列
+d:\c\runoob c标准库\stdlib.h\main.c(216): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdlib.h(1199): note: 参见“getenv”的声明
+d:\c\runoob c标准库\stdlib.h\main.c(217): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdlib.h(1199): note: 参见“getenv”的声明
+d:\c\runoob c标准库\stdlib.h\main.c(218): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdlib.h(1199): note: 参见“getenv”的声明
+d:\c\runoob c标准库\stdlib.h\main.c(220): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
+  stdlib.h.vcxproj -> D:\C\RUNOOB C标准库\Debug\stdlib.h.exe
+  stdlib.h.vcxproj -> D:\C\RUNOOB C标准库\Debug\stdlib.h.pdb (Partial PDB)
